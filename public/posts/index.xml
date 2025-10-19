@@ -29,11 +29,11 @@
       <link>http://localhost:1313/doan-hugo/posts/post8/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:42 +0700</pubDate>
       <guid>http://localhost:1313/doan-hugo/posts/post8/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Multicast&lt;/strong&gt; là phương pháp truyền thông cho phép một nguồn gửi dữ liệu tới &lt;strong&gt;nhiều đích&lt;/strong&gt; cùng một lúc, sử dụng một địa chỉ $IP$ nhóm duy nhất.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Multicast&lt;/strong&gt; là phương pháp truyền thông cho phép một nguồn gửi dữ liệu tới &lt;strong&gt;nhiều đích&lt;/strong&gt; cùng một lúc, sử dụng một địa chỉ &lt;strong&gt;IP&lt;/strong&gt; nhóm duy nhất.&lt;/p&gt;
 &lt;h1 id=&#34;i-khái-niệm-multicast-group&#34;&gt;I. Khái niệm Multicast Group&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Địa chỉ Multicast:&lt;/strong&gt; Là các địa chỉ &lt;strong&gt;IP&lt;/strong&gt; thuộc dải từ &lt;strong&gt;224.0.0.0 đến 239.255.255.255&lt;/strong&gt; (Class D).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tham gia nhóm:&lt;/strong&gt; Máy tính muốn nhận dữ liệu phải &lt;strong&gt;tham gia (Join)&lt;/strong&gt; vào nhóm $Multicast$ $Group$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tham gia nhóm:&lt;/strong&gt; Máy tính muốn nhận dữ liệu phải &lt;strong&gt;tham gia (Join)&lt;/strong&gt; vào nhóm &lt;strong&gt;Multicast&lt;/strong&gt; &lt;strong&gt;Group&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Sơ đồ hoạt động của Multicast:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
@@ -42,12 +42,12 @@
       <link>http://localhost:1313/doan-hugo/posts/post7/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:28 +0700</pubDate>
       <guid>http://localhost:1313/doan-hugo/posts/post7/</guid>
-      <description>&lt;p&gt;$UDP$ (User $Datagram$ $Protocol$) là giao thức truyền tải đơn giản và không đáng tin cậy. Nó hoạt động theo mô hình &lt;strong&gt;không kết nối (Connectionless)&lt;/strong&gt; và nhanh hơn $TCP$.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;UDP&lt;/strong&gt; (User &lt;strong&gt;Datagram&lt;/strong&gt; &lt;strong&gt;Protocol&lt;/strong&gt;) là giao thức truyền tải đơn giản và không đáng tin cậy. Nó hoạt động theo mô hình &lt;strong&gt;không kết nối (Connectionless)&lt;/strong&gt; và nhanh hơn &lt;strong&gt;TCP&lt;/strong&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;i-đặc-điểm-của-udp&#34;&gt;I. Đặc điểm của UDP&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Không kết nối:&lt;/strong&gt; Không cần thiết lập kết nối trước khi truyền dữ liệu.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Không đáng tin cậy:&lt;/strong&gt; Không đảm bảo gói tin đến nơi, không đảm bảo thứ tự.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hiệu suất cao:&lt;/strong&gt; Thích hợp cho $Video$ $Streaming$, $Game$ $Online$ (có thể chấp nhận mất mát dữ liệu).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hiệu suất cao:&lt;/strong&gt; Thích hợp cho &lt;strong&gt;Video&lt;/strong&gt; &lt;strong&gt;Streaming&lt;/strong&gt;, &lt;strong&gt;Game&lt;/strong&gt; &lt;strong&gt;Online&lt;/strong&gt; (có thể chấp nhận mất mát dữ liệu).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Mô hình truyền nhận dữ liệu UDP:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
@@ -125,10 +125,10 @@
     </item>
     <item>
       <title>Hello World - Welcome to DVT Blog</title>
-      <link>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</link>
+      <link>http://localhost:1313/doan-hugo/posts/hello-world/</link>
       <pubDate>Sun, 19 Oct 2025 13:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Chào mừng bạn đến với DVT Blog&#34; loading=&#34;lazy&#34; src=&#34;./hello.png&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/doan-hugo/posts/hello-world/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Chào mừng bạn đến với DVT Blog&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/doan-hugo/posts/hello-world/hello.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Hiện tại bạn đang xem bài viết trên &lt;strong&gt;DVT Blog&lt;/strong&gt;. Đây là blog đầu tiên của mình chia sẻ về quá trình học mộn Lập Trình Mạng Máy Tính. Hãy đón chờ những bài viết tiếp theo của mình nhé. Cảm ơn bạn đã ghé thăm.&lt;/p&gt;</description>
     </item>
   </channel>
