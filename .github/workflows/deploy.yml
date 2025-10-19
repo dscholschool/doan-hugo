@@ -24,6 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Thêm token để cấp quyền truy cập vào Repo (và submodule/clone)
+          token: ${{ secrets.GITHUB_TOKEN }} 
           submodules: recursive 
           fetch-depth: 0
 
