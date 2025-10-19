@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DVT Blog</title>
+    <link>http://localhost:1313/doan-hugo/</link>
+    <description>Recent content on DVT Blog</description>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Sun, 19 Oct 2025 15:15:56 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/doan-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>09 Phan Tan Doi Tuong Trong Java Bang Rmi</title>
+      <link>http://localhost:1313/doan-hugo/posts/09-phan-tan-doi-tuong-trong-java-bang-rmi/</link>
+      <pubDate>Sun, 19 Oct 2025 15:15:56 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/09-phan-tan-doi-tuong-trong-java-bang-rmi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>08 Lap Trinh Multicast</title>
+      <link>http://localhost:1313/doan-hugo/posts/08-lap-trinh-multicast/</link>
+      <pubDate>Sun, 19 Oct 2025 15:15:42 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/08-lap-trinh-multicast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>07 Lap Trinh Mang Cho Giao Thuc Udp</title>
+      <link>http://localhost:1313/doan-hugo/posts/07-lap-trinh-mang-cho-giao-thuc-udp/</link>
+      <pubDate>Sun, 19 Oct 2025 15:15:28 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/07-lap-trinh-mang-cho-giao-thuc-udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>06 Da Tien Trinh Va Tuan Tu Hoa Doi Tuong Mang</title>
+      <link>http://localhost:1313/doan-hugo/posts/06-da-tien-trinh-va-tuan-tu-hoa-doi-tuong-mang/</link>
+      <pubDate>Sun, 19 Oct 2025 15:15:17 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/06-da-tien-trinh-va-tuan-tu-hoa-doi-tuong-mang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>05 Lap Trinh Socket Cho Giao Thuc Tcp</title>
+      <link>http://localhost:1313/doan-hugo/posts/05-lap-trinh-socket-cho-giao-thuc-tcp/</link>
+      <pubDate>Sun, 19 Oct 2025 15:15:07 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/05-lap-trinh-socket-cho-giao-thuc-tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>04 Quan Ly Dia Chi Ket Noi Mang</title>
+      <link>http://localhost:1313/doan-hugo/posts/04-quan-ly-dia-chi-ket-noi-mang/</link>
+      <pubDate>Sun, 19 Oct 2025 15:14:52 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/04-quan-ly-dia-chi-ket-noi-mang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>03 Lap Trinh Da Tuyen</title>
+      <link>http://localhost:1313/doan-hugo/posts/03-lap-trinh-da-tuyen/</link>
+      <pubDate>Sun, 19 Oct 2025 15:14:40 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/03-lap-trinh-da-tuyen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02 Quan Ly Cac Luong Nhap Xuat</title>
+      <link>http://localhost:1313/doan-hugo/posts/02-quan-ly-cac-luong-nhap-xuat/</link>
+      <pubDate>Sun, 19 Oct 2025 15:14:28 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/02-quan-ly-cac-luong-nhap-xuat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>01 Tong Quan Ve Lap Trinh Mang</title>
+      <link>http://localhost:1313/doan-hugo/posts/01-tong-quan-ve-lap-trinh-mang/</link>
+      <pubDate>Sun, 19 Oct 2025 15:14:05 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/01-tong-quan-ve-lap-trinh-mang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World, Blog Da Hoan Thanh</title>
+      <link>http://localhost:1313/doan-hugo/posts/hello-world/</link>
+      <pubDate>Sun, 19 Oct 2025 13:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/doan-hugo/posts/hello-world/</guid>
+      <description>&lt;p&gt;Chao mung den voi Blog Lap Trinh Mang cua toi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

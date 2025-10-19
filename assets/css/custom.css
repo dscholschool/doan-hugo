@@ -1,0 +1,22 @@
+/* assets/css/custom.css */
+
+/* Thay đổi màu nền Header */
+.header {
+    /* Màu nền xanh nhạt - có thể điều chỉnh mã màu */
+    background-color: #e0f7fa;
+    /* Áp dụng một gradient tinh tế */
+    background: linear-gradient(90deg, #e0f7fa 0%, #b2ebf2 100%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Thay đổi màu chữ trên Header cho dễ nhìn */
+.header .main a {
+    color: #00796b !important;
+}
+
+/* Tùy chỉnh kích thước Banner (Home Info) */
+.home-info {
+    padding-top: 100px; /* Tăng padding trên */
+    padding-bottom: 100px; /* Tăng padding dưới */
+    /* Nếu muốn nền Banner là màu trắng */
+    background-color: #ffffff; 
+}
