@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:14:28+07:00'
 draft = false
-title = '02 Quan Ly Cac Luong Nhap Xuat'
+title = 'Bài 02: Quản Lý Các Luồng Nhập Xuất'
 +++
 Trong lập trình mạng Java, quá trình truyền nhận dữ liệu giữa Client và Server được thực hiện thông qua **Input/Output Streams (Luồng Nhập/Xuất)**.
 

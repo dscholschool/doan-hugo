@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:14:40+07:00'
 draft = false
-title = '03 Lap Trinh Da Tuyen'
+title = 'Bài 03: Lập Trình Đa Tuyến'
 +++
 Trong lập trình mạng, máy chủ phải xử lý nhiều yêu cầu đồng thời từ các Client. Lập trình Đa Tuyến (Multi-threading) là giải pháp cốt lõi để đạt được điều này.
 

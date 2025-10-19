@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:14:52+07:00'
 draft = false
-title = '04 Quan Ly Dia Chi Ket Noi Mang'
+title = 'Bài 04: Quản Lý Địa Chỉ Kết Nối Mạng'
 +++
 Lập trình mạng không thể thiếu việc định danh tài nguyên và thiết bị. Các khái niệm URI và URL là nền tảng cho việc này.
 

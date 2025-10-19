@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:15:07+07:00'
 draft = false
-title = '05 Lap Trinh Socket Cho Giao Thuc Tcp'
+title = 'Bài 05: Lập Trình Socket Cho Giao Thức TCP'
 +++
 TCP (Transmission Control Protocol) là giao thức **định hướng kết nối** và **đảm bảo độ tin cậy**. Lập trình TCP Socket là cách phổ biến nhất để xây dựng các ứng dụng Client-Server (như HTTP, FTP).
 
