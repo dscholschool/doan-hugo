@@ -1,11 +1,11 @@
-# hugo.toml
+# hugo.toml - Full Code Đã Sửa Lỗi Cú Pháp
 baseURL = "https://dschchool.github.io/doan-hugo/"
-languageCode = "vi" # Đổi sang Tiếng Việt
+languageCode = "vi"
 title = "DVT Blog"
 theme = "hugo-PaperMod"
 
 # ===============================================
-# CẤU HÌNH GIAO DIỆN CHÍNH (THAY THẾ PHẦN [params] CŨ)
+# CẤU HÌNH GIAO DIỆN CHÍNH (PARAMS)
 # ===============================================
 
 [params]
@@ -19,15 +19,18 @@ theme = "hugo-PaperMod"
   ShowRssButton = false
   ShowSearch = true # Bật nút tìm kiếm
 
+  # KÍCH HOẠT CUSTOM CSS: LỆNH NÀY ĐÃ ĐƯỢC ĐẶT TRONG KHỐI [params]
+  customCSS = ["css/custom.css"]
+
   # ===============================================
   # TÙY CHỈNH TRANG CHỦ (TẠO BANNER LỚN)
   # ===============================================
   [params.homeInfoParams]
-    Title = "CHÀO MỪNG ĐẾN VỚI DVT BLOG" # Dùng chữ IN HOA để nổi bật
-    Content = "Hành trình cooking môn lập trình mạng tính của một cậu SV."
+    Title = "CHÀO MỪNG ĐẾN VỚI DVT BLOG" 
+    Content = "Hành trình cooking món lập trình mạng tinh túy của một cậu SV."
     
   [params.socialIcons]
-    # Bạn có thể thêm link GitHub, Facebook, etc. tại đây.
+    # Thêm link GitHub, Facebook, etc. tại đây.
     
   # Cấu hình Footer
   [params.footer]
@@ -35,7 +38,9 @@ theme = "hugo-PaperMod"
     showView = false
     showDate = false
 
-# Cấu hình Menu (Đảm bảo đường dẫn /profile/ và /posts/ là chính xác)
+# ===============================================
+# Cấu hình Menu
+# ===============================================
 [menu]
   [[menu.main]]
     identifier = "profile"
@@ -48,13 +53,12 @@ theme = "hugo-PaperMod"
     url = "/posts/"
     weight = 20
 
-# Cấu hình hiển thị code (Quan trọng cho bài viết kỹ thuật)
+# ===============================================
+# Cấu hình hiển thị code
+# ===============================================
 [markup.highlight]
   codeFences = true
   guessSyntax = true
   lineNos = true
   lineNumbersInTable = false
   tabWidth = 4
-
-  # KÍCH HOẠT CUSTOM CSS:
-  customCss = ["css/custom.css"]
