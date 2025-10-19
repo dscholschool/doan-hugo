@@ -1,10 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-# hugo.toml
 baseURL = "https://dschchool.github.io/doan-hugo/" # Đảm bảo tên repo là 'doan-hugo'
 languageCode = "en-us"
-title = "Do An Lap Trinh Mang - Hoan Thanh Ngay Hom Nay"
+title = "Do An Lap Trinh Mang"
 theme = "hugo-PaperMod"
 
 # Cấu hình cơ bản cho PaperMod
