@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:14:05+07:00'
 draft = false
-title = '01 Tong Quan Ve Lap Trinh Mang'
+title = 'Bài 01: Tổng Quan Về Lập Trình Mạng'
 +++
 Lập trình mạng là nền tảng cốt lõi của mọi ứng dụng hiện đại, cho phép các thiết bị giao tiếp và trao đổi dữ liệu với nhau qua Internet.
 
@@ -16,7 +16,7 @@ Mô hình **TCP/IP** là xương sống của Internet, chia quá trình giao ti
 
 **Sơ đồ 4 tầng của Mô hình TCP/IP:**
 
-![Sơ đồ mô hình TCP/IP] ({{< ref "/images/bai.jpg" >}})
+![Sơ đồ mô hình TCP/IP](/images/tcp-ip-model.png)
 
 ## 1. Tầng Ứng dụng (Application)
 Đây là tầng gần người dùng nhất. Nó bao gồm các giao thức mà ứng dụng sử dụng để trao đổi dữ liệu (ví dụ: HTTP cho Web, SMTP cho Email).
