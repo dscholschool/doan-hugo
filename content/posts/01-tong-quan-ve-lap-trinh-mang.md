@@ -16,7 +16,7 @@ Mô hình **TCP/IP** là xương sống của Internet, chia quá trình giao ti
 
 **Sơ đồ 4 tầng của Mô hình TCP/IP:**
 
-![Sơ đồ mô hình TCP/IP](/images/bai1.jpg)
+![Sơ đồ mô hình TCP/IP](/images/tcp-ip-model.jpg)
 
 ## 1. Tầng Ứng dụng (Application)
 Đây là tầng gần người dùng nhất. Nó bao gồm các giao thức mà ứng dụng sử dụng để trao đổi dữ liệu (ví dụ: HTTP cho Web, SMTP cho Email).
