@@ -150,12 +150,12 @@ Blog này được mình tạo bằng &lt;strong&gt;Hugo&lt;/strong&gt; và &lt;
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Hello World, Blog Đã Hoàn Thành</title>
-      <link>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</link>
+      <title>Hello World - Welcome to DVT Blog</title>
+      <link>http://localhost:1313/doan-hugo/posts/hello-world/</link>
       <pubDate>Sun, 19 Oct 2025 13:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;hello.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Chào mừng bạn đến với &lt;strong&gt;DVT Blog&lt;/strong&gt;. Đây là blog đầu tiên của mình chia sẻ về quá trình học mộn Lập Trình Mạng Máy Tính và cũng là bài viết đầu tiên. Hãy đón chờ những bài viết tiếp theo của mình nhé. Cảm ơn bạn đã ghé thăm&lt;/p&gt;</description>
+      <guid>http://localhost:1313/doan-hugo/posts/hello-world/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Chào mừng bạn đến với DVT Blog&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/doan-hugo/posts/hello-world/hello.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hiện tại bạn đang xem bài viết trên &lt;strong&gt;DVT Blog&lt;/strong&gt;. Đây là blog đầu tiên của mình chia sẻ về quá trình học mộn Lập Trình Mạng Máy Tính. Hãy đón chờ những bài viết tiếp theo của mình nhé. Cảm ơn bạn đã ghé thăm.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
