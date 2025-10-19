@@ -9,74 +9,127 @@
     <lastBuildDate>Sun, 19 Oct 2025 15:15:56 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/doan-hugo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>09 Phan Tan Doi Tuong Trong Java Bang Rmi</title>
-      <link>http://localhost:1313/doan-hugo/posts/09-phan-tan-doi-tuong-trong-java-bang-rmi/</link>
+      <title>Bài 09: Phân Tán Đối Tượng Trong Java Bằng RMI</title>
+      <link>http://localhost:1313/doan-hugo/posts/post9/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:56 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/09-phan-tan-doi-tuong-trong-java-bang-rmi/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post9/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;RMI&lt;/strong&gt; (&lt;strong&gt;Remote&lt;/strong&gt; &lt;strong&gt;Method&lt;/strong&gt; &lt;strong&gt;Invocation&lt;/strong&gt;) là một cơ chế của &lt;strong&gt;Java&lt;/strong&gt; cho phép một đối tượng chạy trên &lt;strong&gt;JVM&lt;/strong&gt; này gọi các phương thức của một đối tượng chạy trên &lt;strong&gt;JVM&lt;/strong&gt; khác. &lt;strong&gt;RMI&lt;/strong&gt; là cốt lõi của lập trình ứng dụng phân tán bằng &lt;strong&gt;Java&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;i-kiến-trúc-rmi-client-server&#34;&gt;I. Kiến trúc RMI (Client-Server)&lt;/h1&gt;
+&lt;p&gt;Kiến trúc &lt;strong&gt;RMI&lt;/strong&gt; bao gồm:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Remote Interface:&lt;/strong&gt; Định nghĩa các phương thức có thể được gọi từ xa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server (Remote Object):&lt;/strong&gt; Triển khai giao diện &lt;strong&gt;Remote&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Client:&lt;/strong&gt; Gọi các phương thức từ xa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Registry:&lt;/strong&gt; Dịch vụ đặt tên để &lt;strong&gt;Client&lt;/strong&gt; tìm kiếm đối tượng &lt;strong&gt;Remote&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Mô hình kiến trúc RMI trong Java:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>08 Lap Trinh Multicast</title>
-      <link>http://localhost:1313/doan-hugo/posts/08-lap-trinh-multicast/</link>
+      <title>Bài 08: Lập Trình Multicast</title>
+      <link>http://localhost:1313/doan-hugo/posts/post8/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:42 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/08-lap-trinh-multicast/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post8/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Multicast&lt;/strong&gt; là phương pháp truyền thông cho phép một nguồn gửi dữ liệu tới &lt;strong&gt;nhiều đích&lt;/strong&gt; cùng một lúc, sử dụng một địa chỉ $IP$ nhóm duy nhất.&lt;/p&gt;
+&lt;h1 id=&#34;i-khái-niệm-multicast-group&#34;&gt;I. Khái niệm Multicast Group&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Địa chỉ Multicast:&lt;/strong&gt; Là các địa chỉ &lt;strong&gt;IP&lt;/strong&gt; thuộc dải từ &lt;strong&gt;224.0.0.0 đến 239.255.255.255&lt;/strong&gt; (Class D).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tham gia nhóm:&lt;/strong&gt; Máy tính muốn nhận dữ liệu phải &lt;strong&gt;tham gia (Join)&lt;/strong&gt; vào nhóm $Multicast$ $Group$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sơ đồ hoạt động của Multicast:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>07 Lap Trinh Mang Cho Giao Thuc Udp</title>
-      <link>http://localhost:1313/doan-hugo/posts/07-lap-trinh-mang-cho-giao-thuc-udp/</link>
+      <title>Bài 07: Lập Trình Mạng Cho Giao Thức UDP</title>
+      <link>http://localhost:1313/doan-hugo/posts/post7/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:28 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/07-lap-trinh-mang-cho-giao-thuc-udp/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post7/</guid>
+      <description>&lt;p&gt;$UDP$ (User $Datagram$ $Protocol$) là giao thức truyền tải đơn giản và không đáng tin cậy. Nó hoạt động theo mô hình &lt;strong&gt;không kết nối (Connectionless)&lt;/strong&gt; và nhanh hơn $TCP$.&lt;/p&gt;
+&lt;h1 id=&#34;i-đặc-điểm-của-udp&#34;&gt;I. Đặc điểm của UDP&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Không kết nối:&lt;/strong&gt; Không cần thiết lập kết nối trước khi truyền dữ liệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Không đáng tin cậy:&lt;/strong&gt; Không đảm bảo gói tin đến nơi, không đảm bảo thứ tự.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hiệu suất cao:&lt;/strong&gt; Thích hợp cho $Video$ $Streaming$, $Game$ $Online$ (có thể chấp nhận mất mát dữ liệu).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Mô hình truyền nhận dữ liệu UDP:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>06 Da Tien Trinh Va Tuan Tu Hoa Doi Tuong Mang</title>
-      <link>http://localhost:1313/doan-hugo/posts/06-da-tien-trinh-va-tuan-tu-hoa-doi-tuong-mang/</link>
+      <title>Bài 06: Đa Tiến Trình Và Tuần Tự Hóa Đối Tượng Mạng</title>
+      <link>http://localhost:1313/doan-hugo/posts/post6/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:17 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/06-da-tien-trinh-va-tuan-tu-hoa-doi-tuong-mang/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post6/</guid>
+      <description>&lt;p&gt;Bài viết này đi sâu vào các lớp trong gói &lt;code&gt;java.net&lt;/code&gt; để quản lý tài nguyên mạng, đặc biệt là &lt;code&gt;URL&lt;/code&gt;, &lt;code&gt;URLConnection&lt;/code&gt; và &lt;code&gt;URI&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;i-lớp-javaneturi&#34;&gt;I. Lớp java.net.URI&lt;/h1&gt;
+&lt;p&gt;Lớp &lt;code&gt;URI&lt;/code&gt; đại diện cho một &lt;strong&gt;định danh tài nguyên chung&lt;/strong&gt; và chủ yếu dùng để phân tích cú pháp (parsing), xây dựng, và so sánh các định danh theo tiêu chuẩn.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So sánh các lớp URL và URI trong Java:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Trong Java, URI (Uniform Resource Identifier) và URL (Uniform Resource Locator) đều được dùng để tham chiếu đến tài nguyên, nhưng chúng có phạm vi và mục đích khác nhau.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>05 Lap Trinh Socket Cho Giao Thuc Tcp</title>
-      <link>http://localhost:1313/doan-hugo/posts/05-lap-trinh-socket-cho-giao-thuc-tcp/</link>
+      <title>Bài 05: Lập Trình Socket Cho Giao Thức TCP</title>
+      <link>http://localhost:1313/doan-hugo/posts/post5/</link>
       <pubDate>Sun, 19 Oct 2025 15:15:07 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/05-lap-trinh-socket-cho-giao-thuc-tcp/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post5/</guid>
+      <description>&lt;p&gt;TCP (Transmission Control Protocol) là giao thức &lt;strong&gt;định hướng kết nối&lt;/strong&gt; và &lt;strong&gt;đảm bảo độ tin cậy&lt;/strong&gt;. Lập trình TCP Socket là cách phổ biến nhất để xây dựng các ứng dụng Client-Server (như HTTP, FTP).&lt;/p&gt;
+&lt;h1 id=&#34;i-cơ-chế-hoạt-động-three-way-handshake&#34;&gt;I. Cơ chế Hoạt động (Three-way Handshake)&lt;/h1&gt;
+&lt;p&gt;TCP thiết lập kết nối bằng quá trình &amp;ldquo;bắt tay 3 bước&amp;rdquo; (Three-way Handshake) để đảm bảo cả Client và Server sẵn sàng truyền dữ liệu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Luồng hoạt động TCP Socket:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>04 Quan Ly Dia Chi Ket Noi Mang</title>
-      <link>http://localhost:1313/doan-hugo/posts/04-quan-ly-dia-chi-ket-noi-mang/</link>
+      <title>Bài 04: Quản Lý Địa Chỉ Kết Nối Mạng</title>
+      <link>http://localhost:1313/doan-hugo/posts/post4/</link>
       <pubDate>Sun, 19 Oct 2025 15:14:52 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/04-quan-ly-dia-chi-ket-noi-mang/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post4/</guid>
+      <description>&lt;p&gt;Lập trình mạng không thể thiếu việc định danh tài nguyên và thiết bị. Các khái niệm URI và URL là nền tảng cho việc này.&lt;/p&gt;
+&lt;h1 id=&#34;i-uri-uniform-resource-identifier&#34;&gt;I. URI (Uniform Resource Identifier)&lt;/h1&gt;
+&lt;p&gt;URI là một chuỗi ký tự được sử dụng để định danh bất kỳ tài nguyên nào trên mạng (ví dụ: một tài liệu, hình ảnh, hoặc một dịch vụ).&lt;/p&gt;
+&lt;h2 id=&#34;cấu-trúc-uri&#34;&gt;Cấu trúc URI&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Scheme:[//authority]path[?query][#fragment]&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;ii-url-uniform-resource-locator&#34;&gt;II. URL (Uniform Resource Locator)&lt;/h1&gt;
+&lt;p&gt;URL là một &lt;strong&gt;tập hợp con của URI&lt;/strong&gt;. Nó không chỉ định danh tài nguyên mà còn &lt;strong&gt;cung cấp vị trí cụ thể&lt;/strong&gt; của tài nguyên đó và cách truy cập nó (dùng giao thức nào).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>03 Lap Trinh Da Tuyen</title>
-      <link>http://localhost:1313/doan-hugo/posts/03-lap-trinh-da-tuyen/</link>
+      <title>Bài 03: Lập Trình Đa Tuyến</title>
+      <link>http://localhost:1313/doan-hugo/posts/post3/</link>
       <pubDate>Sun, 19 Oct 2025 15:14:40 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/03-lap-trinh-da-tuyen/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post3/</guid>
+      <description>&lt;p&gt;Trong lập trình mạng, máy chủ phải xử lý nhiều yêu cầu đồng thời từ các Client. Lập trình Đa Tuyến (Multi-threading) là giải pháp cốt lõi để đạt được điều này.&lt;/p&gt;
+&lt;h1 id=&#34;i-tại-sao-cần-đa-tuyến-trong-lập-trình-mạng&#34;&gt;I. Tại sao cần Đa Tuyến trong Lập trình Mạng?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Phản hồi nhanh:&lt;/strong&gt; Mỗi Client được xử lý trên một &lt;strong&gt;Thread&lt;/strong&gt; riêng biệt, giúp Server nhanh chóng chấp nhận kết nối tiếp theo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hiệu suất:&lt;/strong&gt; Tận dụng tối đa tài nguyên CPU đa nhân để xử lý đồng thời nhiều tác vụ I/O (chờ đợi dữ liệu).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ii-khái-niệm-thread-tuyển&#34;&gt;II. Khái niệm Thread (Tuyển)&lt;/h1&gt;
+&lt;p&gt;Thread là một luồng thực thi độc lập bên trong một chương trình (Process).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>02 Quan Ly Cac Luong Nhap Xuat</title>
-      <link>http://localhost:1313/doan-hugo/posts/02-quan-ly-cac-luong-nhap-xuat/</link>
+      <title>Bài 02: Quản Lý Các Luồng Nhập Xuất</title>
+      <link>http://localhost:1313/doan-hugo/posts/post2/</link>
       <pubDate>Sun, 19 Oct 2025 15:14:28 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/02-quan-ly-cac-luong-nhap-xuat/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post2/</guid>
+      <description>&lt;p&gt;Trong lập trình mạng Java, quá trình truyền nhận dữ liệu giữa Client và Server được thực hiện thông qua &lt;strong&gt;Input/Output Streams (Luồng Nhập/Xuất)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;i-khái-niệm-luồng-stream&#34;&gt;I. Khái niệm Luồng (Stream)&lt;/h1&gt;
+&lt;p&gt;Luồng là một chuỗi dữ liệu (byte hoặc ký tự) chảy từ nguồn đến đích.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Input Stream:&lt;/strong&gt; Dùng để đọc dữ liệu từ nguồn (ví dụ: nhận dữ liệu từ Socket).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Stream:&lt;/strong&gt; Dùng để ghi dữ liệu ra đích (ví dụ: gửi dữ liệu qua Socket).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sơ đồ luồng I/O cơ bản:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>01 Tong Quan Ve Lap Trinh Mang</title>
-      <link>http://localhost:1313/doan-hugo/posts/01-tong-quan-ve-lap-trinh-mang/</link>
+      <title>Bài 01: Tổng Quan Về Lập Trình Mạng</title>
+      <link>http://localhost:1313/doan-hugo/posts/post1/</link>
       <pubDate>Sun, 19 Oct 2025 15:14:05 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/01-tong-quan-ve-lap-trinh-mang/</guid>
-      <description></description>
+      <guid>http://localhost:1313/doan-hugo/posts/post1/</guid>
+      <description>&lt;p&gt;Lập trình mạng là nền tảng cốt lõi của mọi ứng dụng hiện đại, cho phép các thiết bị giao tiếp và trao đổi dữ liệu với nhau qua Internet.&lt;/p&gt;
+&lt;h1 id=&#34;i-khái-niệm-và-vai-trò&#34;&gt;I. Khái niệm và Vai trò&lt;/h1&gt;
+&lt;h2 id=&#34;lập-trình-mạng-là-gì&#34;&gt;Lập trình mạng là gì?&lt;/h2&gt;
+&lt;p&gt;Đây là quá trình xây dựng các ứng dụng có thể truyền và nhận dữ liệu giữa các máy tính thông qua một mạng lưới, sử dụng các giao thức chuẩn. Nó giúp kiến tạo các mô hình quan trọng như &lt;strong&gt;Client-Server&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hello World, Blog Da Hoan Thanh</title>
-      <link>http://localhost:1313/doan-hugo/posts/hello-world/</link>
+      <title>Hello World, Blog Đã Hoàn Thành</title>
+      <link>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</link>
       <pubDate>Sun, 19 Oct 2025 13:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/doan-hugo/posts/hello-world/</guid>
-      <description>&lt;p&gt;Chao mung den voi Blog Lap Trinh Mang cua toi.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/doan-hugo/posts/hello-world/hello-world/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;hello.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Chào mừng bạn đến với &lt;strong&gt;DVT Blog&lt;/strong&gt;. Đây là blog đầu tiên của mình chia sẻ về quá trình học mộn Lập Trình Mạng Máy Tính và cũng là bài viết đầu tiên. Hãy đón chờ những bài viết tiếp theo của mình nhé. Cảm ơn bạn đã ghé thăm&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

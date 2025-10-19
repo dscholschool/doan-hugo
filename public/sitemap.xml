@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/doan-hugo/posts/09-phan-tan-doi-tuong-trong-java-bang-rmi/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post9/</loc>
     <lastmod>2025-10-19T15:15:56+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/doan-hugo/</loc>
@@ -11,29 +11,32 @@
     <loc>http://localhost:1313/doan-hugo/posts/</loc>
     <lastmod>2025-10-19T15:15:56+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/08-lap-trinh-multicast/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post8/</loc>
     <lastmod>2025-10-19T15:15:42+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/07-lap-trinh-mang-cho-giao-thuc-udp/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post7/</loc>
     <lastmod>2025-10-19T15:15:28+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/06-da-tien-trinh-va-tuan-tu-hoa-doi-tuong-mang/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post6/</loc>
     <lastmod>2025-10-19T15:15:17+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/05-lap-trinh-socket-cho-giao-thuc-tcp/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post5/</loc>
     <lastmod>2025-10-19T15:15:07+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/04-quan-ly-dia-chi-ket-noi-mang/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post4/</loc>
     <lastmod>2025-10-19T15:14:52+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/03-lap-trinh-da-tuyen/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post3/</loc>
     <lastmod>2025-10-19T15:14:40+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/02-quan-ly-cac-luong-nhap-xuat/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post2/</loc>
     <lastmod>2025-10-19T15:14:28+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/doan-hugo/posts/01-tong-quan-ve-lap-trinh-mang/</loc>
+    <loc>http://localhost:1313/doan-hugo/posts/post1/</loc>
     <lastmod>2025-10-19T15:14:05+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/doan-hugo/profile/</loc>
+    <lastmod>2025-10-19T15:13:49+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/doan-hugo/posts/hello-world/</loc>
     <lastmod>2025-10-19T13:00:00+07:00</lastmod>
