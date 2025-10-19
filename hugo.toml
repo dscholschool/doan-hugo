@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+# hugo.toml
+baseURL = "https://dschchool.github.io/doan-hugo/" # Đảm bảo tên repo là 'doan-hugo'
+languageCode = "en-us"
+title = "Do An Lap Trinh Mang - Hoan Thanh Ngay Hom Nay"
+theme = "hugo-PaperMod"
+
+# Cấu hình cơ bản cho PaperMod
+[params]
+  env = "production"
+  defaultTheme = "light"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[menu]
+  [[menu.main]]
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Bai Viet (9)"
+    url = "/posts/"
+    weight = 20
