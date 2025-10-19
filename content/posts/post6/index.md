@@ -10,8 +10,6 @@ Lớp `URI` đại diện cho một **định danh tài nguyên chung** và ch�
 
 **So sánh các lớp URL và URI trong Java:**
 
-![So sánh các lớp URL và URI trong Java]
-
 Trong Java, URI (Uniform Resource Identifier) và URL (Uniform Resource Locator) đều được dùng để tham chiếu đến tài nguyên, nhưng chúng có phạm vi và mục đích khác nhau.
 
 URI là một chuỗi ký tự xác định duy nhất một tài nguyên trên Internet hoặc trong hệ thống, mà không nhất thiết phải chỉ ra cách truy cập tài nguyên đó. Nó là khái niệm tổng quát bao trùm cả URL và URN (Uniform Resource Name). Trong Java, lớp java.net.URI dùng để biểu diễn URI. Nó chỉ tập trung vào cú pháp và cấu trúc, không liên quan đến việc truy cập dữ liệu. Ví dụ: URI uri = new URI("https://example.com/index.html");
