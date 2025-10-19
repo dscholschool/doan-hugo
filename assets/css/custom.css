@@ -1,20 +1,26 @@
-/* assets/css/custom.css - Full Code Đã Thêm !important */
+/* assets/css/custom.css - Code MỚI để ghi đè */
 
 /* Ghi đè màu nền Header và thêm Gradient */
-header {
-    /* Dùng !important để buộc thay đổi, khắc phục lỗi không đổi màu */
-    background-color: #e0f7fa !important; 
+/* Sử dụng ID selector để tăng độ ưu tiên (specificty) và !important */
+#header { 
+    background-color: #e0f7fa !important; /* Xanh nhạt */
     background: linear-gradient(90deg, #e0f7fa 0%, #b2ebf2 100%) !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* Thay đổi màu chữ trên Header cho dễ nhìn */
-.header .main a {
+
+/* Đảm bảo link trong header cũng có màu xanh đậm dễ nhìn */
+#header .main a {
     color: #00796b !important;
 }
 
 /* Tùy chỉnh kích thước Banner (Home Info) */
 .home-info {
-    padding-top: 100px; /* Tăng padding trên */
-    padding-bottom: 100px; /* Tăng padding dưới */
-    background-color: transparent !important; /* Đảm bảo nền trong suốt */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: transparent !important;
+}
+
+/* Thêm màu cho nút chuyển Dark/Light Mode (Moon/Sun) */
+.header .main .theme-toggle {
+    color: #00796b !important;
 }
