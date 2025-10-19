@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T15:15:56+07:00'
 draft = false
-title = '09 Phân Tán Đối Tượng Trong Java Bằng RMI'
+title = 'Bài 09: Phân Tán Đối Tượng Trong Java Bằng RMI'
 +++
 **RMI** (**Remote** **Method** **Invocation**) là một cơ chế của **Java** cho phép một đối tượng chạy trên **JVM** này gọi các phương thức của một đối tượng chạy trên **JVM** khác. **RMI** là cốt lõi của lập trình ứng dụng phân tán bằng **Java**.
 
